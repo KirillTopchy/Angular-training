@@ -1,0 +1,159 @@
+.planner-section {
+    background-color: #F8FAFD;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.planner-wrapper {
+    background-color: #FFF0DF;
+    height: fit-content;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.planner-action-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.task-input {
+    font-size: 20px;
+    width: 100%;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.planner-task {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.planner-task-description-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0, 20px;
+}
+
+.planner-task-description {
+    margin: 0 10px;
+}
+
+.planner-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.planner-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.planner-status {
+    margin-top: 20px;
+}
+
+.btn-delete {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-width: 0;
+    font-size: 15px;
+    background-color: #F15243;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.btn-delete:hover {
+    opacity: 1;
+}
+
+.btn-delete:active {
+    opacity: 0.7;
+}
+
+.btn-add {
+    background-color: #343A40;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.btn-add:hover {
+    background-image: linear-gradient( to right, #E7484F, #E7484F 16.65%, #F68B1D 16.65%, #F68B1D 33.3%, #FCED00 33.3%, #FCED00 49.95%, #009E4F 49.95%, #009E4F 66.6%, #00AAC3 66.6%, #00AAC3 83.25%, #732982 83.25%, #732982 100%, #E7484F 100%);
+    animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.btn-clearAll {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.btn-filter {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 0.5rem;
+    margin: 5px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-filter:hover {
+    background-color: #1e293b;
+    color: #fff;
+}
