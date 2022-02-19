@@ -1,4 +1,4 @@
 # Angular-training
-Simple counter
-Login Form
-ToDo List
+- Simple counter
+- Login Form
+- ToDo List
