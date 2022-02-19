@@ -19,6 +19,10 @@ export class HeaderComponent implements OnInit {
     {
       path: 'planner',
       title: 'Planner'
+    },
+    {
+      path: 'cat-facts',
+      title: 'Cat Facts'
     }
   ]
 

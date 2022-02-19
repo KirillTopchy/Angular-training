@@ -8,6 +8,8 @@ import { CounterComponent } from './pages/counter/counter.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PlannerComponent } from './pages/planner/planner.component';
+import { CatFactsComponent } from './pages/cat-facts/cat-facts.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,14 @@ import { PlannerComponent } from './pages/planner/planner.component';
     HeaderComponent,
     LoginComponent,
     PlannerComponent,
+    CatFactsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule, 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
