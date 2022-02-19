@@ -23,7 +23,12 @@ export class HeaderComponent implements OnInit {
     {
       path: 'cat-facts',
       title: 'Cat Facts'
+    },
+    {
+      path: 'users',
+      title: 'Users'
     }
+
   ]
 
   constructor() { }

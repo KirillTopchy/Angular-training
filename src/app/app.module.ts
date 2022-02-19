@@ -10,6 +10,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { PlannerComponent } from './pages/planner/planner.component';
 import { CatFactsComponent } from './pages/cat-facts/cat-facts.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UsersComponent } from './pages/users/users.component';
+import { UserService } from './shared/services/user.service';
+import { CatFactCardComponent } from './pages/cat-facts/cat-fact-card/cat-fact-card.component';
+import { UserCardComponent } from './pages/users/user-card/user-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     PlannerComponent,
     CatFactsComponent,
+    UsersComponent,
+    CatFactCardComponent,
+    UserCardComponent,
   ],
   imports: [
     BrowserModule,

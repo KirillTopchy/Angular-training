@@ -1,0 +1,30 @@
+.card {
+    background-color: rgb(62, 164, 241);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-height: 300px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 4px;
+    aspect-ratio: 2 / 1;
+}
+
+.card-description {
+    font-size: 20px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.card-footer,
+.card-header {
+    text-align: center;
+    padding: 10px;
+    color: #e0dfd6;
+}

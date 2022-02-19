@@ -1,37 +1,7 @@
 .cat-fact-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 10px;
     padding: 10px 20px;
     background-color: bisque;
-}
-
-.card {
-    background-color: rgb(62, 164, 241);
-    margin: 10px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.card-img {
-    width: 100%;
-    border-radius: 4px;
-    aspect-ratio: 2 / 1;
-}
-
-.card-description {
-    font-size: 20px;
-    padding: 10px;
-    flex-grow: 1;
-}
-
-.card-footer,
-.card-header {
-    text-align: center;
-    padding: 10px;
-    color: #e0dfd6;
 }

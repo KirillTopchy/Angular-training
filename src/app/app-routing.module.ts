@@ -5,6 +5,8 @@ import { CatFactsComponent } from './pages/cat-facts/cat-facts.component';
 import { CounterComponent } from './pages/counter/counter.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PlannerComponent } from './pages/planner/planner.component';
+import { UserCardComponent } from './pages/users/user-card/user-card.component';
+import { UsersComponent } from './pages/users/users.component';
 
 const routes: Routes = [
   {
@@ -27,6 +29,14 @@ const routes: Routes = [
   {
     path: 'cat-facts',
     component: CatFactsComponent
+  },
+  {
+    path: 'users/:id',
+    component : UserCardComponent
+  },
+  {
+    path: 'users',
+    component: UsersComponent
   }
 ];
 

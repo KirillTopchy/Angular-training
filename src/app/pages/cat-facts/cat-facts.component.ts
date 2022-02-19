@@ -17,6 +17,9 @@ export class CatFactsComponent implements OnInit {
 
   ngOnInit(): void {
     this.facts$ = this.catFactService.getCatFacts();
+  }
 
+  sayHi(message: string): void {
+    console.log(message);
   }
 }

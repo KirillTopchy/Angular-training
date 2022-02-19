@@ -1,11 +1,4 @@
 <section *ngIf="facts$ | async as facts" class="cat-fact-section">
-    <div *ngFor="let fact of facts; let i = index" class="card">
-        <div class="card-header">Created {{ fact.createdAt | date: 'dd.MM.YYYY HH:mm' }}</div>
-        <img [src]="'https://picsum.photos/300/200?random='+ i" alt="random picture" class="card-img">
-        <p class="card-description">
-            {{ fact.text }}
-        </p>
-        <div class="card-footer">Updated {{ fact.updatedAt | date: 'dd.MM.YYYY HH:mm' }}</div>
-
-    </div>
+    <app-cat-fact-card *ngFor="let fact of facts; let i = index" class="cat-fact-section" [fact]="fact" (sayHiEvent)="sayHi($event)" [index]="i">
+    </app-cat-fact-card>
 </section>
