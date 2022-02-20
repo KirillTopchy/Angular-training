@@ -3,3 +3,5 @@
 - Simple counter
 - Login Form
 - ToDo List
+- Random Cat Facts Page
+- Users table
